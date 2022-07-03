@@ -1,0 +1,238 @@
+<html>
+	<head>
+		<title>BOOKWORLD</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.css">
+		<script src="jquery.js"></script>
+        <script src="popper.js"></script>
+        <script src="bootstrap.js"></script>
+		<style>
+			.back{
+				background:#481610;
+			}
+			.menu-bar{
+				color:white !important;	
+				margin-left:200px;
+			}
+			.menu:hover{
+									
+				background:#7E4F49;
+				border-radius:20px;
+			}
+			.menu{
+				padding:15px;
+				margin-left:60px;
+				text-align:center;
+				font-family:arial-Black;
+				color:white !important;
+			}
+			.img{
+				background-image:url("https://image.freepik.com/free-photo/wooden-table_36051-46.jpg");
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-size: cover;
+				background-position: center; 
+				height:800px;
+				margin-top:90px;
+			}
+			h1{
+				font-size:40px;
+				color:gray;
+				margin-top:20px;
+				margin-bottom:30px;
+			}
+			.label{
+				font-size:19px;
+				margin-top:20px;
+				font-weight:normal;
+			}
+			.form-control{
+				background:transparent;
+				border:0px;
+				border-bottom:2px solid white;
+			}
+			form{
+				background-color:rgba(0,0,0,0.8);
+				background-attachment:fixed;
+				margin-top:40px;
+				padding-bottom:30px;
+				
+			}
+			.btn-block {
+				margin-left:120px;
+				border-radius:20px;
+			}
+			.search{
+				border:2px solid white;
+				background:#EFECF7;
+			}
+			#footer{
+				color:black;
+				background:#CCB864;
+				margin-top:20px;
+				padding-top:10px;
+			}
+			.info{
+				background:#481610;
+				width:100%;
+			}
+			.bar{
+				background:black;
+				text-align:center;
+			}
+			.aa:hover{
+				background:#7E4F49;
+				border-radius:20px;
+				color:white;
+			}
+			textarea {
+				resize: none;
+			}
+			.aa{
+				text-decoration:none;
+				color:white;
+			}
+			            
+ul li a:hover{
+    background-color:greenyellow;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+ul li #d1:hover{
+    background-color: blue;
+    border-radius:20px;
+   
+}
+ul li #d2:hover{
+    background-color:green;
+    border-radius:20px;
+   
+   
+}
+#l1:hover{
+  font-size: 35px;
+  border-radius: 5px;
+ 
+}
+		</style>	
+	
+	</head>
+    <body style="color:white!important;">
+        
+    
+    <nav class="navbar navbar-expand-md  back navbar-dark fixed-top ">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <img src="https://makedonijalek.com.mk/wp-content/uploads/2016/09/adresa.png" style="width:100px; height:100px" alt=""><span style="color:white"><h4 id="l1">Hello BOOKWORLD</h4></span>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;font-size: 20px; color:white">HOME</a></li>                           
+                     <li class="nav-item"><a class="nav-link" href="ourbook.html"  style="width: 160px; text-align: center;font-size: 20px; color:white">OUR BOOKS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogs.html" style="width: 160px; text-align: center;font-size: 20px; color:white">BLOGS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html" style="width: 130px; text-align: center;font-size: 20px; color:white">ABOUTUS</a></li>
+                	<li class="nav-item"><a class="nav-link" href="contactus.html" style="width: 130px; text-align: center;font-size: 20px; color:white">CONTACTUS</a></li>
+                    <li class="nav-item"><a id="d1" class="nav-link" href="login.html"  style="width: 110px; text-align: center;font-size: 20px; color:white">LOGIN</a> </li>
+                    <li class="nav-item"><a id="d2" class="nav-link" href="signin.html"style="width: 110px; text-align: center;font-size: 20px; color:white">SIGNIN</a></li>        
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+		<div class="container-fluid img ">
+			<div class="row">
+				<div class="container col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 mx-auto">
+					<form class="form">
+					<h1 class="text-center col-md-12">CONTACT US </h1>
+					<div class="form-group">
+						<label class="label col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6  control-label"for="fname">Name</label>
+						<div class="col-md-9">
+							<input type="text" class="form-control" name="name" placeholder="Enter your name" id="fname" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="label col-md-6 control-label" for="email">Email</label>
+						<div class="col-md-9">
+							<input type="Email" class="form-control" name="Email" placeholder="Email" required id="email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="label col-md-3 control-label" for="mobile">Mobile Number</label>
+						<div class="col-md-9">
+							<input type="text" class="form-control" name="Mobile Number" placeholder="Mobile Number" required id="mobile">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="label col-md-3 control-label" for="message">Message</label>
+						<div class="col-md-9">
+							<textarea class="form-control" id="message" required></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-4 col-sm-4 col-md-6 col-lg-3 col-xl-3">
+								<button type="submit" value="Submit" name="submit" class="btn btn-block btn-outline-success">SEND</button>
+							</div>
+							<div class="col-4 col-sm-4 col-md-6 col-lg-3 col-xl-3">						
+								<button type="reset" value="reset" name="Reset" class="btn btn-block btn-outline-danger">CANCEL</button>
+							</div>
+						</div>	
+					</div>
+			</form>
+		</div>	
+		
+		<div class="container-fluid" id="footer">
+			<div class="row " style="margin-left:20px;text-align:center;" >			
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 " style="margin-top:80px;">
+					
+					<h5><span class="material-icons icon">place</span>Address:</h5>
+					<p>Nerul, Navi Mumbai, sector-10,<br> 400706</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<h5> <span class="material-icons icons">phone</span> Contact:</h5>
+					<p>9004689426</p>
+					<h5> <span class="material-icons icon">email</span> Email-Id:</h5>
+					<p>abcpqr123@gmail.com</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 " style="margin-top:80px;">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" href="www.facebook.com" title="Facebook" name="Facebook" width="50px" class="img-fluid">
+					
+					<img src="https://www.danoneinstitute.org/wp-content/uploads/2020/06/logo-rond-twitter.png" href="www.twitter.com" title="Twitter" name="Twitter" width="50px" class="img-fluid">
+					
+					<img src="https://workingwithdog.com/wp-content/uploads/2016/05/new_instagram_logo-1024x1024.jpg" href="www.Instagram.com" title="Instagram" name="Instagram" width="50px" class="img-fluid">
+					
+					<img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" href="www.Linkdin.com" title="Linkdin" name="Linkdin" width="50px" class="img-fluid">
+					
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" href="www.google.com" title="Google" name="Google" width="50px" class="img-fluid">
+					
+					<img src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202050chatlogosocialsocialmediawhatsapp-115638_115663.png" href="www.whatsapp.com" title="Whatsapp" name="Whatsapp" width="50px" class="img-fluid">
+				</div>
+			</div>
+		</div>	
+		<div class="container-fixed info">
+			<div class="row " style="text-align:center;font-size:20px;">
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">						
+					<a class="nav-link aa" href="Homepage.html">HOME</a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">	
+					<a class="nav-link aa" href="blog.html">BLOG</a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">	
+					<a class="nav-link aa" href="Ourbooks.html">OUR BOOKS</a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">	
+					<a class="nav-link aa" href="aboutus.html">ABOUT US</a>
+				</div>
+			</div>	
+		</div>
+		<div class="container-fixed bar col-12">
+			<p>public Liabrary 2021@copyrights reserved</p>
+		</div>		
+	</body>
+</html>	
